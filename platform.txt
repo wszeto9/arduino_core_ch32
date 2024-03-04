@@ -145,6 +145,7 @@ recipe.objcopy.hex.pattern="{compiler.path}{compiler.objcopy.cmd}" {compiler.elf
 build.preferred_out_format=bin
 
 ## Save binary
+recipe.hooks.savehex.presavehex.1.pattern="C:\Users\wszet\AppData\Local\Arduino15\packages\WCH\hardware\ch32v\1.0.4\OBJDumpRiscV.bat" "{build.path}/{build.project_name}.elf" "{build.path}/{build.project_name}.objdump"
 recipe.output.tmp_file={build.project_name}.{build.preferred_out_format}
 recipe.output.save_file={build.project_name}.{build.board}.{build.preferred_out_format}
 

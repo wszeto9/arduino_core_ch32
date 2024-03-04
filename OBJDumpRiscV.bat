@@ -1,0 +1,1 @@
+C:\Users\wszet\AppData\Local\Arduino15\packages\WCH\tools\riscv-none-embed-gcc\8.2.0\riscv-none-embed\bin\objdump -S -d %1 > %2
